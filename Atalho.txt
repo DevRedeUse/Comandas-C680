@@ -1,0 +1,11 @@
+    COL=18 LIN=16
+
+    echo ("<RECTANGLE NAME=1 X=40 Y=205 WIDTH=240 HEIGHT=50 VISIBLE=1>")
+    echo ("<RECTANGLE NAME=2 X=40 Y=285 WIDTH=240 HEIGHT=50 VISIBLE=1>")
+
+    if get.SUCO == "5" then
+        echo ("<DATA DESTINATION=PARSER>")
+        echo (" dofile('newMenu.lua')")
+        echo (" prods()")
+        echo ("</DATA>")
+    end
